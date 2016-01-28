@@ -56,6 +56,8 @@ exports.renderPoints =  function(context, img, x, y) {
     // 	context.drawImage(img, x + (40 * (i + 2)), y + (40 * (i + 1)));	
     // }
 
+    //shitty programming... I know...
+
     x = x + 10;
     y = y + 10;
 
