@@ -1,0 +1,29 @@
+<!--
+    name: Tristan Damron (github.com/TristanDamron || tdamron14@mail.wou.edu)
+    license: GNU GPL
+    version: 1.0.0
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Catan AI Tool</title>
+  </head>
+  <body style="cursor:url(img/pointer.png), auto;">
+    <center>
+      <p id="victory points"></p>
+      <img id="pointer" src="img/pointer.png" alt="pointer"/>
+      <img id="pencil" src="img/pencil.png" alt="pencil"/>
+      <img id="eraser" src="img/pencil.png" style="transform: rotate(90deg)" alt="eraser"/>
+      <img id="text" src="img/text.png" alt="text"/>
+      </br>
+      <canvas id="game-canvas" width="800" height="600" style="background: #ffffff; border: 1px solid #cccccc; position: absolute; z-index: -1;">
+	Error: Cannot load canvas
+      </canvas>
+      <canvas id="layer" width="800" height="600" style="position: absolute; z-index: 0;">
+	Error: Cannot load canvas
+      </canvas>
+    </center>
+  </body>
+  <script src="./js/game.js">
+  </script>
+</html>
